@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+# Основні залежності гему
+gem 'activerecord', '~> 7.0'
+gem 'json'
+gem 'sqlite3', '~> 1.6'
+
+# Залежності для розробки
+group :development, :test do
+  gem 'rspec', '~> 3.0'
+end
